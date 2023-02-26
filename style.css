@@ -6,15 +6,15 @@ body{
     margin: 0;
     padding: 0;
     font-family: red hat display;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
-::before,
+/* ::before,
 ::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 .logo img{
     width: 119px;
@@ -43,12 +43,13 @@ body{
     margin-top: 66px;
     margin-left: auto;
     margin-right: auto;
-    width: 1504px;
+    /* width: 1504px; */
 
 }
 
 .intro_text{
     margin-top: 47px;
+    margin-bottom: auto;
 }
 
 .intro_text h1{
@@ -88,6 +89,7 @@ body{
     color: #FFFFFF;
     border-radius: 29px;
     border: none;
+    margin-left: 100px;
 }
 
 .download_button1:hover{
@@ -122,12 +124,6 @@ body{
     background-color: #B18BDD;
 }
 
-.buttons{
-    width: 348px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
 
 .shape1{
     width: 56px;
@@ -312,7 +308,7 @@ footer{
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
-    background: #B18BDD;
+    background: #855FB1;
     border-radius: 29px;
     border: none;
 }
@@ -324,15 +320,19 @@ footer{
     font-size: 16px;
     line-height: 26px;
     color: #D9B8FF;
+    ;
 }
 
 .download_button2:hover{
     cursor: pointer;
-    background-color: #D9B8FF;
+    background-color: #B18BDD;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1204px) {
-    .logo img{
+
+@media only screen and (min-width: 768px) and (max-width: 1104px) {
+    .logo{
+        margin-top: -32px;
+        margin-left: -320px;
     }
 
     .hero_left, .hero_right{
@@ -340,18 +340,64 @@ footer{
     }
 
     .hero_image{
-        display: block;
-    }
-
-    .hero_image img{
-   
+        display: flex;
+        margin-left: -26px;
     }
 
     .intro{
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
     }
 
     .intro_text{
+        margin-left: 120px;
 
     }
+
+    .middle_images{
+        width: 689px;
+        gap: 10px;
+    }
+
+    .middle_images img{
+        width: 164px;
+        height: 156px;
+    }
+
+    .function{
+        margin-top: 32px;
+    }
+
+    footer{
+        background-image: linear-gradient(0,#4D96A9E7,#4D96A9E7),url(assets/tablet/image-footer.jpg);
+        width: 100%;
+        width: 768px;
+        height: 456px;
+    }
+
+    .footercontent{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .footercontent h1{
+        margin-left: 210px;
+    }
+
+    .footercontent p{
+        margin-left: 110px;
+        margin-top: 32px;
+        width: 573px;
+        height: 52px;
+        width: 573px;
+        font-size: 17px;
+    }
+
+    .download_button2{
+        margin-top: 40px;
+        margin-left: -310px;
+    }
+
+
+    
 }
