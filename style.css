@@ -370,7 +370,6 @@ footer{
 
     footer{
         background-image: linear-gradient(0,#4D96A9E7,#4D96A9E7),url(assets/tablet/image-footer.jpg);
-        width: 100%;
         width: 768px;
         height: 456px;
     }
@@ -397,7 +396,130 @@ footer{
         margin-top: 40px;
         margin-left: -310px;
     }
+}
+@media only screen and (min-width:300px) and (max-width:420px) {
+     
+    .logo{
+        margin-left: -530px;
+        margin-top: -32px;
+    }
 
+    .hero_left,.hero_right{
+        display: none;
+    }
 
+    .hero_image{
+        display: flex;
+        margin-left: -25px;
+    }
+
+    .hero_image img{
+        width: 440px;
+        height: 153px;;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro_text{
+        margin-bottom: auto;
+    }
+
+    .intro_text h1{
+        width: 327px;
+        font-size: 40px;
+        line-height: 44px;
+        margin-left: 30px;
+    }
+
+    .intro_text p{
+        font-size: 15px;
+        width: 327px;
+        margin-bottom: auto;
+        margin-top: -48px;
+        margin-left: 30px;
+    }
+
+    .download_button1{
+        margin-top: 48px;
+        margin-left: 100px;
+    }
+
+    .what_button{
+        margin-top: 15px;
+        margin-left: 128px;
+    }
+
+    .shape1{
+        margin-top: 64px;
+    }
+
+    .middle_images{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: yellow;
+        column-gap: 25px;
+        row-gap: 25px;
+        width: 327px;
+        height: 310px;
     
+   
+    }
+
+    .middle_images img{
+        width: 151px;
+        height: 143px;
+    }
+
+    .function{
+        width: 327px;
+        background-color: blue;
+        margin-top: 64px;
+    }
+
+    .function h2{
+        width: 327px;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .function p{
+        width: 327px;
+        font-size: 16px;
+    }
+
+    .shape2{
+        margin-top: 64px;
+    }
+
+    footer{
+        background-image: linear-gradient(0,#4D96A9E7,#4D96A9E7),url(assets/mobile/image-footer.jpg);
+        height: 428px;
+    }
+
+    .footercontent{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .footercontent h1{
+        font-size: 32px;
+        margin-top: 92px;
+        margin-left: 20px;
+    }
+
+    .footercontent p{
+        font-size: 18px;
+        margin-top: auto;
+        margin-left: 30px;
+        width: 327px;
+    }
+
+    .download_button2{
+        margin-top: 15px;
+        margin-left: -720px;
+    }
+  
 }
