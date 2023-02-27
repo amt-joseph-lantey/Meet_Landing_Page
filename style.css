@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&family=Ubuntu:ital@1&display=swap');
 
 body{
-    /* width: 1440px; */
     height: 1895px;
     margin: 0;
     padding: 0;
@@ -9,12 +8,11 @@ body{
     overflow-x: hidden;
 }
 
-/* ::before,
-::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+main{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .logo img{
     width: 119px;
@@ -459,7 +457,6 @@ footer{
     .middle_images{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        background-color: yellow;
         column-gap: 25px;
         row-gap: 25px;
         width: 327px;
@@ -475,7 +472,6 @@ footer{
 
     .function{
         width: 327px;
-        background-color: blue;
         margin-top: 64px;
     }
 
