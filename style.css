@@ -328,6 +328,19 @@ footer{
 
 
 @media only screen and (min-width: 768px) and (max-width: 1104px) {
+
+    body{
+        overflow-x: hidden;
+        width: auto;
+    }
+
+    main{
+        overflow-x: hidden;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .logo{
         margin-top: -32px;
         margin-left: -320px;
@@ -396,6 +409,18 @@ footer{
     }
 }
 @media only screen and (min-width:300px) and (max-width:420px) {
+
+    body{
+        overflow-x: hidden;
+        width: auto;
+    }
+
+    main{
+        overflow-x: hidden;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
      
     .logo{
         margin-left: -530px;
