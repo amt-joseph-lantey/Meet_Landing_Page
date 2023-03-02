@@ -14,11 +14,10 @@ main{
     margin-right: auto;
 }
 
-.logo img{
+.logo{
+    margin: auto;
     width: 119px;
-    height: 28px;
     margin-top: 80px;
-    margin-left: 661px;
 }
 
 .hero_image{
@@ -219,6 +218,7 @@ main{
 .shape2{
     width: 56px;
     height: 140px;
+    margin-top: 72px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -341,11 +341,6 @@ footer{
         margin-right: auto;
     }
 
-    .logo{
-        margin-top: -32px;
-        margin-left: -320px;
-    }
-
     .hero_left, .hero_right{
         display: none;
     }
@@ -420,11 +415,6 @@ footer{
         width: auto;
         margin-left: auto;
         margin-right: auto;
-    }
-     
-    .logo{
-        margin-left: -530px;
-        margin-top: -32px;
     }
 
     .hero_left,.hero_right{
